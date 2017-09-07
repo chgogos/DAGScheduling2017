@@ -1,0 +1,32 @@
+# Dataset from Figure 5a of paper
+# 2004. A Hybrid Heuristic for DAG Scheduling on Heterogeneous Systems
+# Rizos Sakellariou and Henan Zhao ( 2004 )
+Processors:3
+Tasks:10
+# task computation cost on each processor
+0 17 19 21
+1 22 27 23 
+2 15 15 9
+3 4 8 9
+4 17 14 20
+5 30 27 18
+6 17 16 15
+7 49 49 46
+8 25 22 16
+9 23 27 19
+Dependencies:14
+# from_task_id to_task_id weight
+0 1 14
+0 2 18
+0 3 22
+0 4 13
+0 5 25
+1 7 15
+2 8 20
+3 6 26
+4 7 14
+4 8 21
+5 8 17
+6 9 26
+7 9 20
+8 9 19

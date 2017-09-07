@@ -1,0 +1,24 @@
+# Dataset from Figure 4.1 page 106 of book
+# 2007. Task Scheduling for Parallel Systems by Oliver Sinnen
+Processors:3
+Tasks:8
+# task name and task computation cost on each processor
+a 2 2 2
+b 2 2 2
+c 4 4 4
+d 3 3 3
+e 3 3 3
+f 2 2 2
+g 2 2 2
+h 3 3 3
+Dependencies:9
+# from_task_id to_task_id weight
+a b 2
+a c 2
+a d 1
+b e 1
+c g 5
+d f 1
+e g 2
+e h 4
+f h 2
