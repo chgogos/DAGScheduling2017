@@ -1,0 +1,17 @@
+strict digraph  {
+	T1	 [ACT=3];
+	T3	 [ACT=4];
+	T1 -> T3	 [comm=1];
+	T4	 [ACT=2];
+	T1 -> T4	 [comm=5];
+	T5	 [ACT=6];
+	T1 -> T5	 [comm=6];
+	T2	 [ACT=7];
+	T7	 [ACT=2];
+	T2 -> T7	 [comm=3];
+	T6	 [ACT=4];
+	T3 -> T6	 [comm=7];
+	T4 -> T2	 [comm=4];
+	T5 -> T2	 [comm=2];
+	T6 -> T7	 [comm=8];
+}
