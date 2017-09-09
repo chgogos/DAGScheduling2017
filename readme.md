@@ -9,4 +9,10 @@ heterogeneous computing systems
 * <http://sandbox.kidstrythisathome.com/erdos/>
 
 
-test
+
+
+### Specifications
+* Python 3.6
+* pytest
+* networkx
+
